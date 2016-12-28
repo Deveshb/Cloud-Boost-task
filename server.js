@@ -19,6 +19,6 @@ io.on('connection', function(socket){
 		io.emit('newClient',clients)
 	                                 })
                                    });
-http.listen(4000,"192.168.1.11", function(){
+http.listen(4000,"192.168.1.11", function(){        //Enter your IP Address
   console.log('listening on *:4000');
 });
